@@ -44,7 +44,7 @@ class CustomAppbar extends StatelessWidget {
           ),
           Positioned(
             left: 30,
-            top: 50,
+            top: 40,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
