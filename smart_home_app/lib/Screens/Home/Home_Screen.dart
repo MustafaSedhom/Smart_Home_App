@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smart_home_app/Screens/Home/widgets/Custom_Bottom_Bar.dart';
+import 'package:smart_home_app/Screens/Home/widgets/Main_Home_Screen.dart';
 import 'package:smart_home_app/constants/Colors/App_Colors.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -15,12 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   // List of screens for each navigation item
   final List<Widget> _pages = const [
-    Center(
-      child: Text(
-        "Home Page",
-        style: TextStyle(color: Colors.white, fontSize: 20),
-      ),
-    ),
+    MainHomeScreen(),
     Center(
       child: Text(
         "Smart Devices Page",

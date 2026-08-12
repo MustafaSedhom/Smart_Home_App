@@ -29,4 +29,8 @@ class App_Icons {
   static const String Vector_Icon = "assets/Icons/vector.png";
   static const String WIFI_Icon = "assets/Icons/wifi.png";
   static const String Wind_Icon = "assets/Icons/wind.png";
+  static const String Cloud_1_Icon = "assets/Icons/cloud_1.png";
+  static const String Cloud_2_Icon = "assets/Icons/cloud_2.png";
+  static const String Sun_and_Cloud_Icon = "assets/Icons/sun_and_cloud.png";
+  static const String Sun_Icon = "assets/Icons/sun.png";
 }
