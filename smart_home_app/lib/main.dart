@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smart_home_app/constants/Images_and_Icons/Icons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -104,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            Image.asset(App_Icons.Add_Icon),
             const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
