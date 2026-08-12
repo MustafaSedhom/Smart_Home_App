@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:smart_home_app/Screens/Home/Home_Screen.dart';
 import 'package:smart_home_app/constants/Colors/App_Colors.dart';
 import 'package:smart_home_app/constants/Images_and_Icons/Icons.dart';
 import 'package:smart_home_app/constants/Images_and_Icons/Images.dart';
@@ -76,10 +77,10 @@ class StartScreen extends StatelessWidget {
                 Gap(50),
                 GestureDetector(
                   onTap: () {
-                    // Navigator.pushReplacement(
-                    //   context,
-                    //   MaterialPageRoute(builder: (context) {}),
-                    // );
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                    );
                   },
                   child: Container(
                     margin: EdgeInsets.symmetric(horizontal: 25),
