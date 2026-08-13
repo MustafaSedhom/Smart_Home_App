@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smart_home_app/Screens/Home/widgets/Custom_Container_for_home_appbar.dart';
 import 'package:smart_home_app/constants/Colors/App_Colors.dart';
+import 'package:smart_home_app/constants/Colors/effects.dart';
 import 'package:smart_home_app/constants/Images_and_Icons/Icons.dart';
 
 class CustomAppbar extends StatelessWidget {
@@ -15,6 +16,7 @@ class CustomAppbar extends StatelessWidget {
       height: MediaQuery.of(context).size.height / 2.7,
       decoration: BoxDecoration(
         color: App_Colors.Main_2_Color,
+        boxShadow: App_Effects.My_Shadow(50),
         borderRadius: BorderRadius.only(bottomLeft: Radius.circular(50)),
       ),
       child: Stack(
